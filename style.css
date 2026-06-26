@@ -142,11 +142,9 @@ color:#d84f89;
 
 .hero-container{
 
-max-width:1250px;
-
+width:90%;
+max-width:1400px;
 margin:auto;
-
-padding:50px 8%;
 
 display:flex;
 
@@ -154,13 +152,9 @@ justify-content:space-between;
 
 align-items:center;
 
-gap:80px;
+gap:140px;
 
-min-height:80vh;
-
-position:relative;
-
-z-index:5;
+min-height:92vh;
 
 }
 
