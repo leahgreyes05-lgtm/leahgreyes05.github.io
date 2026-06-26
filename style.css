@@ -304,29 +304,23 @@ justify-content:center;
 
 .photo-card{
 
-background:white;
-
-padding:18px;
-
-border-radius:35px;
-
-box-shadow:0 25px 60px rgba(0,0,0,.12);
-
-transform:rotate(-3deg);
+background:transparent;
+padding:0;
+border:none;
+box-shadow:none;
+transform:none;
 
 }
 
 .photo-card img{
 
-width:430px;
-
-height:560px;
-
-object-fit:cover;
-
+width:650px;
+max-width:100%;
+height:auto;
 display:block;
+object-fit:contain;
 
-border-radius:25px;
+}
 
 }
 
