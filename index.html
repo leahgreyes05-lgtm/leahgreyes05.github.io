@@ -4,208 +4,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leah G. Reyes | Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
+    <title>Leah G. Reyes | Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
+    <!-- ================= NAVIGATION ================= -->
 
     <header>
 
-        <nav class="navbar">
+        <div class="container nav-container">
 
             <div class="logo">
                 Leah G. Reyes
             </div>
 
-            <ul class="nav-links">
+            <nav id="nav">
 
-                <li><a href="#home">Home</a></li>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#cv">CV</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
 
-                <li><a href="#about">About</a></li>
+            </nav>
 
-                <li><a href="#cv">CV</a></li>
-
-                <li><a href="#portfolio">Portfolio</a></li>
-
-                <li><a href="#contact">Contact</a></li>
-
-            </ul>
-
-            <div class="menu-btn">
+            <div class="menu-btn" id="menu-btn">
 
                 ☰
 
             </div>
 
-        </nav>
+        </div>
 
     </header>
 
-    <!-- Hero -->
+    <!-- ================= HOME ================= -->
 
     <section id="home" class="hero">
 
-        <div class="hero-text">
+        <div class="container hero-grid">
 
-            <p class="subtitle">
-                Welcome to my Portfolio
-            </p>
+            <div class="hero-text fade">
 
-            <h1>
-                Leah G. Reyes
-            </h1>
+                <p class="subtitle">
+                    Welcome to My Portfolio
+                </p>
 
-            <h2>
-                Professional Portfolio
-            </h2>
+                <h1>
+                    Leah G. Reyes
+                </h1>
 
-            <p class="hero-description">
-
-                Passionate, creative, and committed to delivering meaningful work through dedication, professionalism,
-                and continuous learning.
-
-            </p>
-
-            <a href="#about" class="btn">
-                Explore More
-            </a>
-
-        </div>
-
-        <div class="hero-image">
-
-            <img src="profile.png" alt="Leah G. Reyes">
-
-        </div>
-
-    </section>
-
-    <!-- About -->
-
-    <section id="about" class="section">
-
-        <div class="container">
-
-            <h2 class="section-title">
-                About Me
-            </h2>
-
-            <div class="about-content">
+                <h2>
+                    Aspiring Professional
+                </h2>
 
                 <p>
 
-                    Hello! I'm <strong>Leah G. Reyes</strong>, a passionate individual who values excellence,
-                    creativity, and lifelong learning.
+                    I am passionate about creating meaningful work,
+                    continuously learning new skills, and embracing
+                    opportunities that allow me to grow professionally.
+                    Explore my portfolio to learn more about me,
+                    my experience, and my achievements.
 
                 </p>
 
-                <p>
+                <div class="hero-buttons">
 
-                    I enjoy working on projects that challenge my skills while allowing me to grow personally and
-                    professionally. My portfolio reflects my commitment to producing quality work with attention to
-                    detail.
+                    <a href="#portfolio" class="btn">
+                        View Portfolio
+                    </a>
 
-                </p>
-
-                <p>
-
-                    Thank you for visiting my website. Feel free to browse my curriculum vitae and portfolio to learn
-                    more about my experiences and accomplishments.
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- CV -->
-
-    <section id="cv" class="section">
-
-        <div class="container">
-
-            <h2 class="section-title">
-
-                Curriculum Vitae
-
-            </h2>
-
-            <div class="image-card">
-
-                <img src="CV.jpg" alt="Curriculum Vitae">
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Portfolio -->
-
-    <section id="portfolio" class="section">
-
-        <div class="container">
-
-            <h2 class="section-title">
-
-                Portfolio
-
-            </h2>
-
-            <div class="portfolio-grid">
-
-                <div class="portfolio-item">
-
-                    <img src="Portfolio.jpg" alt="Portfolio">
-
-                </div>
-
-                <div class="portfolio-item">
-
-                    <img src="Portfolio1.jpg" alt="Portfolio">
+                    <a href="#contact" class="btn-outline">
+                        Contact Me
+                    </a>
 
                 </div>
 
             </div>
 
+            <div class="hero-image fade">
+
+                <img src="profile.png" alt="Leah G. Reyes">
+
+            </div>
+
         </div>
 
     </section>
 
-    <!-- Contact -->
+    <!-- ================= ABOUT ================= -->
 
-    <section id="contact" class="section">
+    <section id="about">
 
         <div class="container">
 
-            <h2 class="section-title">
+            <div class="section-title">
 
-                Contact
+                <h2>About Me</h2>
 
-            </h2>
+            </div>
 
-            <div class="contact-box">
+            <div class="about-card fade">
 
                 <p>
 
-                    Thank you for taking the time to view my portfolio.
+                    Hello! I'm <strong>Leah G. Reyes</strong>,
+                    an enthusiastic individual who enjoys learning,
+                    collaborating, and achieving excellence in every
+                    opportunity I take.
 
                 </p>
 
                 <p>
 
-                    Feel free to reach out for collaborations, opportunities, or professional inquiries.
+                    I value professionalism, creativity, and dedication.
+                    I believe every experience contributes to personal
+                    and career growth while helping me become a better
+                    version of myself.
+
+                </p>
+
+                <p>
+
+                    My goal is to continue improving my knowledge,
+                    strengthen my skills, and make meaningful contributions
+                    wherever I work.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CV ================= -->
+
+    <section id="cv">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Curriculum Vitae</h2>
+
+            </div>
+
+            <div class="cv-container fade">
+
+                <img src="CV.jpg" alt="CV">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PORTFOLIO ================= -->
+
+    <section id="portfolio">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Portfolio</h2>
+
+            </div>
+
+            <div class="portfolio-grid fade">
+
+                <div class="portfolio-card">
+
+                    <img src="Portfolio.jpg" alt="Portfolio Image">
+
+                </div>
+
+                <div class="portfolio-card">
+
+                    <img src="Portfolio1.jpg" alt="Portfolio Image">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Contact</h2>
+
+            </div>
+
+            <div class="contact-card fade">
+
+                <h3>
+                    Let's Connect
+                </h3>
+
+                <p>
+
+                    Thank you for visiting my portfolio.
+                    Feel free to reach out for collaborations,
+                    opportunities, or professional inquiries.
 
                 </p>
 
@@ -221,15 +239,11 @@
 
     </section>
 
-    <!-- Footer -->
+    <!-- ================= FOOTER ================= -->
 
     <footer>
 
-        <p>
-
-            © 2026 Leah G. Reyes. All Rights Reserved.
-
-        </p>
+        © 2026 Leah G. Reyes • All Rights Reserved
 
     </footer>
 
